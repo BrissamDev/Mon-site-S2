@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    color: #333;
+    margin: 0;
+}
+
+.hero{
+    background: #0B1F3A;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+
+
+.hero h1{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+nav ul{
+    margin: 30px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+    gap: 15px; ;
+    padding: 8px 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ffd166;
+}
+
+.hero-photo img{
+    width: 230;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+    border: 5px solid beige;
+    margin-top: 35px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 3);
+
+
+}
+
+.citation{
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.hero-buttons{
+    margin-top: 35px;
+}
+
+.btn{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    color: #0B1F3A;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn:hover{
+    background: #ffd166;
+}
+
+.btn-secondaire{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-secondaie:hover{
+    background: white;
+    color: #0B1F3A;
+}
+
+
+section{
+    background: white;
+    padding: 35px;
+    margin: 40px auto;
+    border-radius: 12px;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 0.08);
+}
+
+.cards-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background: white;
+    width: 300px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: transform 0.4s ease;
+    padding: 30px;
+
+}
+
+.card h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+
+}
+
+.card img{
+    border-radius: 10px;
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+}
+
+.card button{
+    margin: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+input,
+textarea{
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px;
+    background-color: #0B1F3A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: #163a63;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #0B1F3A;
+    color: white;
+}
+
